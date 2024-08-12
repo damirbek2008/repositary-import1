@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+     text-align: center;
+    
+
+}
+
+label {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.mybtn {
+    margin-top: 20px;
+    font-size: 1.4em;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: none;
+    transition: 0.1 s;
+}
+
+.mybtn:hover {
+    font-size: 2em;
+    background-color: saddlebrown;
+    color: #fff;
+
+}
+
+input {
+    margin-bottom: 13px;
+}
+
+.container {
+    margin-top: 100px;
+}
