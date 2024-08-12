@@ -29,6 +29,14 @@ label {
 
 }
 
+/* .mybtn::after {
+    font-size: 2em;
+    background-color: rgba(1, 0, 58, 0.973);
+    color: #fff;
+
+} */
+
+
 input {
     margin-bottom: 13px;
 }

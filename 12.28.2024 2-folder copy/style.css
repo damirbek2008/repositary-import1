@@ -1,0 +1,119 @@
+* {
+    margin:0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+.navbar {
+    overflow: hidden; 
+    height: 50px;
+    /* width: 90%; */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul ul li a:hover {
+
+}
+
+.basket {
+    background-color: green;
+   
+
+}
+a{
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.navbar .ul ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .ul ul li a {
+    padding: 20px;
+}
+
+.paragraph {
+    padding-top: 200px;
+    height: 300px;
+    margin-top: 600px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#button {
+    
+    margin-top: 40px;
+   padding-top: 35px;
+    text-align: center;
+    padding: 20px;
+    background-color: green;
+    border-radius: 20px;
+    cursor: progress;
+}
+
+.img {
+    padding-top: 40px;
+   align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.img .first {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-color: blue;
+    width: 40%;
+    position: relative;
+    float: left;
+}
+
+.img .second {
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    float: right;
+    clear: all;
+}
+
+.img .second p {
+    padding-top: 60px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    clear: both;
+    padding-top: 100px;
+}
+
+.h4 {
+    
+    width: 30%;
+    float: left;
+    font-weight: bold;
+}
+.p {
+    margin-left: 30%;
+    width: 40%;
+}
+
+
+.ul ul li a {
+    color: white;
+}
+.navbar {
+    background-color: black;
+}
